@@ -2,34 +2,34 @@ function ExecuteScript(strId)
 {
   switch (strId)
   {
-      case "6Lzrm9Rkjfv":
+      case "6YJQBuh6UON":
         Script1();
         break;
-      case "6avfWS5AESO":
+      case "6lrQsBHMr36":
         Script2();
         break;
-      case "5nI8iK5AuIT":
+      case "6lb6Iizus2R":
         Script3();
         break;
-      case "6RrQUnmjk6z":
+      case "5lzpdTYLGxp":
         Script4();
         break;
-      case "5udLVPE7DqE":
+      case "6533yuINIEn":
         Script5();
         break;
-      case "5wj3EWdJbxU":
+      case "6owd6Nxdux6":
         Script6();
         break;
-      case "6OIgv1hRRNU":
+      case "6A6o8nmPcJP":
         Script7();
         break;
-      case "5uf7BLp6gmZ":
+      case "5v8RutHCHeL":
         Script8();
         break;
-      case "6pdW2S8u0vO":
+      case "6QdvAAXbAXP":
         Script9();
         break;
-      case "607nNS9K2Og":
+      case "631S40NGIDA":
         Script10();
         break;
   }
@@ -37,12 +37,7 @@ function ExecuteScript(strId)
 
 function Script1()
 {
-  //Get Var Pagetitle from Storyline
-var player = GetPlayer();
-var pagetitle = player.GetVar("PageTitle");
-
-//Send PageTitle to Analytics
-ga('send', 'screenview', {screenName: pagetitle});
+  ga('send', 'screenview', {screenName: 'home'});
 }
 
 function Script2()
@@ -62,7 +57,7 @@ function Script4()
 
 function Script5()
 {
-  ga('send', 'event', 'Button', 'click', DataVisHome');
+  ga('send', 'event', 'Button', 'click', 'DataVisHome');
 }
 
 function Script6()
