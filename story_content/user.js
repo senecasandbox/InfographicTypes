@@ -2,32 +2,35 @@ function ExecuteScript(strId)
 {
   switch (strId)
   {
-      case "5qMFlUOmmmI":
+      case "651Kh4Dy4Kq":
         Script1();
         break;
-      case "6jrchvZQk6P":
+      case "6lMiuUK7jVL":
         Script2();
         break;
-      case "6bys0rDNsJT":
+      case "6QG6qb1o66p":
         Script3();
         break;
-      case "6qybDhfXteJ":
+      case "6JGiHK64YDM":
         Script4();
         break;
-      case "6TjHlsEtOGi":
+      case "6U6kiHUKb7l":
         Script5();
         break;
-      case "5eiOEuzlraW":
+      case "5rPUDUJQnO9":
         Script6();
         break;
-      case "6P8VPkJhmg0":
+      case "5npiBlMxSCk":
         Script7();
         break;
-      case "5fl03K32pKw":
+      case "5cSendUrh5a":
         Script8();
         break;
-      case "6q8tbcaWT8h":
+      case "6JMyO9qGMxT":
         Script9();
+        break;
+      case "6jMV0bGXi3V":
+        Script10();
         break;
   }
 }
@@ -75,5 +78,15 @@ function Script8()
 function Script9()
 {
   ga('send', 'event', 'Button', 'click', Source Button');
+}
+
+function Script10()
+{
+  //Get Var Pagetitle from Storyline
+var player = GetPlayer();
+var pagetitle = player.GetVar("PageTitle");
+
+//Send PageTitle to Analytics
+ga('send', 'screenview', {screenName: pagetitle});
 }
 
