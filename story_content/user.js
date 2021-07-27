@@ -2,34 +2,34 @@ function ExecuteScript(strId)
 {
   switch (strId)
   {
-      case "6eXKCV7qSN8":
+      case "5nrjuOkcnwj":
         Script1();
         break;
-      case "6YlTsHqW6kc":
+      case "6kUzG7wMuE9":
         Script2();
         break;
-      case "5phTLsM15sr":
+      case "5XKWmbh7Fva":
         Script3();
         break;
-      case "69kMg9dlhtu":
+      case "5yZhgHihah8":
         Script4();
         break;
-      case "5t14jDGTZen":
+      case "6it9r5AfJEF":
         Script5();
         break;
-      case "5veOPF8pwPl":
+      case "5qZNd3WBwUX":
         Script6();
         break;
-      case "6EEye3ufY1V":
+      case "5dN82mVruw0":
         Script7();
         break;
-      case "6knOHXoHBd4":
+      case "68OhW4mDerW":
         Script8();
         break;
-      case "5p2S0rc6IRm":
+      case "5yOMu4WjyQU":
         Script9();
         break;
-      case "6TF9PUcBji9":
+      case "6J4MU4fYUrI":
         Script10();
         break;
   }
@@ -42,37 +42,37 @@ function Script1()
 
 function Script2()
 {
-  ga('send', 'event', 'Button', 'click', 'List Button');
+  ga('send', 'event', 'Button', 'click', 'ListHome');
 }
 
 function Script3()
 {
-  ga('send', 'event', 'Button', 'click', Comparison Button');
+  ga('send', 'event', 'Button', 'click', ComparisonHome');
 }
 
 function Script4()
 {
-  ga('send', 'event', 'Button', 'click', Flow Button');
+  ga('send', 'event', 'Button', 'click', FlowHome');
 }
 
 function Script5()
 {
-  ga('send', 'event', 'Button', 'click', Data Vis Button');
+  ga('send', 'event', 'Button', 'click', DataVisHome');
 }
 
 function Script6()
 {
-  ga('send', 'event', 'Button', 'click', Map Button');
+  ga('send', 'event', 'Button', 'click', MapHome');
 }
 
 function Script7()
 {
-  ga('send', 'event', 'Button', 'click', Timeline Button');
+  ga('send', 'event', 'Button', 'click', TimelineHome');
 }
 
 function Script8()
 {
-  ga('send', 'event', 'Button', 'click', Article Button');
+  ga('send', 'event', 'Button', 'click', ArticleHome');
 }
 
 function Script9()
