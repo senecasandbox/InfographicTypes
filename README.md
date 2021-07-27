@@ -1,2 +1,2 @@
-# InfographicTypes
+# Types of Infographics
  
