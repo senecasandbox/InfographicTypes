@@ -2,7 +2,6 @@ function ExecuteScript(strId)
 {
   switch (strId)
   {
-<<<<<<< HEAD
       case "6oDDYSIgE41":
         Script1();
         break;
@@ -30,38 +29,6 @@ function ExecuteScript(strId)
       case "64ZnM7qf2S0":
         Script9();
         break;
-=======
-      case "651Kh4Dy4Kq":
-        Script1();
-        break;
-      case "6lMiuUK7jVL":
-        Script2();
-        break;
-      case "6QG6qb1o66p":
-        Script3();
-        break;
-      case "6JGiHK64YDM":
-        Script4();
-        break;
-      case "6U6kiHUKb7l":
-        Script5();
-        break;
-      case "5rPUDUJQnO9":
-        Script6();
-        break;
-      case "5npiBlMxSCk":
-        Script7();
-        break;
-      case "5cSendUrh5a":
-        Script8();
-        break;
-      case "6JMyO9qGMxT":
-        Script9();
-        break;
-      case "6jMV0bGXi3V":
-        Script10();
-        break;
->>>>>>> parent of 1caf8ad (draft4)
   }
 }
 
