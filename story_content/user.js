@@ -2,34 +2,34 @@ function ExecuteScript(strId)
 {
   switch (strId)
   {
-      case "6JR84KS33fK":
+      case "5lh3OMxfVl8":
         Script1();
         break;
-      case "5UgAGH6uVtQ":
+      case "5zK2InB7jwd":
         Script2();
         break;
-      case "6GhRbUJ3q40":
+      case "6A19bEAeoYr":
         Script3();
         break;
-      case "69cRasEfkxQ":
+      case "6m6UoaHaBKZ":
         Script4();
         break;
-      case "6rjgYFWc5JU":
+      case "6QJHoJjpXV5":
         Script5();
         break;
-      case "5tUcfSEkiBZ":
+      case "6Bla6XiMXu9":
         Script6();
         break;
-      case "6TwXypNGTfd":
+      case "5lA6Sza0XSp":
         Script7();
         break;
-      case "5ZBLiSBSkQ4":
+      case "6X96Gwsmmi6":
         Script8();
         break;
-      case "6KzCDcwu6bj":
+      case "61iTF5YNPg1":
         Script9();
         break;
-      case "6A6D77t5ofk":
+      case "6RlHPKAnvWr":
         Script10();
         break;
   }
@@ -37,7 +37,7 @@ function ExecuteScript(strId)
 
 function Script1()
 {
-  ga('send', 'screenview', {screenName: 'home'});
+  ga('send', 'screenview', {screenName: 'welcome'});
 }
 
 function Script2()
