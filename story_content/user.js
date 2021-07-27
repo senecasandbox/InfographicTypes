@@ -2,34 +2,34 @@ function ExecuteScript(strId)
 {
   switch (strId)
   {
-      case "5nrjuOkcnwj":
+      case "6b8MJdYSAe8":
         Script1();
         break;
-      case "6kUzG7wMuE9":
+      case "6oEqilvJww1":
         Script2();
         break;
-      case "5XKWmbh7Fva":
+      case "6grVOOevJQT":
         Script3();
         break;
-      case "5yZhgHihah8":
+      case "6n9z72fnMS4":
         Script4();
         break;
-      case "6it9r5AfJEF":
+      case "6ZXdtigOsHv":
         Script5();
         break;
-      case "5qZNd3WBwUX":
+      case "5aL6jLsfxvD":
         Script6();
         break;
-      case "5dN82mVruw0":
+      case "5oDIB87DmP2":
         Script7();
         break;
-      case "68OhW4mDerW":
+      case "6nBsKT6LIoE":
         Script8();
         break;
-      case "5yOMu4WjyQU":
+      case "66R1UHKsGnb":
         Script9();
         break;
-      case "6J4MU4fYUrI":
+      case "6ePFqOdDOeQ":
         Script10();
         break;
   }
@@ -37,7 +37,12 @@ function ExecuteScript(strId)
 
 function Script1()
 {
-  ga('send', 'screenview', {screenName: 'Types of Infographics'});
+  //Get Var Pagetitle from Storyline
+var player = GetPlayer();
+var pagetitle = player.GetVar("PageTitle");
+
+//Send PageTitle to Analytics
+ga('send', 'screenview', {screenName: pagetitle});
 }
 
 function Script2()
