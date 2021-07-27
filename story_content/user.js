@@ -2,31 +2,31 @@ function ExecuteScript(strId)
 {
   switch (strId)
   {
-      case "64XGgquWAW9":
+      case "5qMFlUOmmmI":
         Script1();
         break;
-      case "6AtQKcEbYDP":
+      case "6jrchvZQk6P":
         Script2();
         break;
-      case "6AyzT9JVUmA":
+      case "6bys0rDNsJT":
         Script3();
         break;
-      case "6IpklKCNb2E":
+      case "6qybDhfXteJ":
         Script4();
         break;
-      case "5mEuj8LL1uK":
+      case "6TjHlsEtOGi":
         Script5();
         break;
-      case "5scvWS26Q5X":
+      case "5eiOEuzlraW":
         Script6();
         break;
-      case "6W5izd0namQ":
+      case "6P8VPkJhmg0":
         Script7();
         break;
-      case "5l4jfUkgJC2":
+      case "5fl03K32pKw":
         Script8();
         break;
-      case "5xU78oyi4ui":
+      case "6q8tbcaWT8h":
         Script9();
         break;
   }
@@ -34,7 +34,7 @@ function ExecuteScript(strId)
 
 function Script1()
 {
-  ga('send', 'screenview', {screenName: 'Welcome'});
+  ga('send', 'screenview', {screenName: 'Types of Infographics'});
 }
 
 function Script2()
